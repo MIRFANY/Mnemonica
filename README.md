@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mnemonics
 
-## Getting Started
+### An intelligent, local-first engine for cognitive retention.
 
-First, run the development server:
+Mnemonics is a high-performance utility designed to bridge the gap between complex academic data and long-term neural encoding. By leveraging local Small Language Models (SLMs), the platform architects structured memory anchors—transforming raw information into recall-optimized hooks with zero latency and absolute privacy.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔬 Core Philosophy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Traditional study methods often struggle with high-density information. Mnemonics automates the creation of phonetically stable and semantically resonant memory aids, allowing students to focus on mastery rather than rote memorization.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚡ Key Features
 
-## Learn More
+* **Privacy-Centric Inference:** Powered by Ollama, ensuring all data remains on your local hardware.
+* **Dual-Engine Logic:** Seamlessly toggle between Acronym (lexical compression) and Acrostic (narrative expansion) modes.
+* **Adaptive Tone:** Fine-tune generation for Academic, Absurd, or Visceral styles to maximize mnemonic "stickiness."
+* **Minimalist Workflow:** A friction-free interface designed for high-output study sessions.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide-React
+- **AI Engine:** Ollama (Recommended: llama3.2:1b)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Getting Started
 
-## Deploy on Vercel
+### Prerequisites
+* Ollama installed and running.
+* Node.js 18.x or higher.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   git clone https://github.com/your-username/mnemonics.git
+
+2. **Install dependencies:**
+   npm install
+
+3. **Pull the inference model:**
+   ollama pull llama3.2:1b
+
+4. **Launch the development server:**
+   npm run dev
+
+## 📜 License
+Distributed under the MIT License.
